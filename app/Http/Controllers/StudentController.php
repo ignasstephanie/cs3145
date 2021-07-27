@@ -15,7 +15,7 @@ class StudentController extends Controller
     {
         $studentlist = Student::get();
         return view('students.studentlist', [
-            'studentlist' => $studentlist
+            'studentlist' => $studentlist //im lost
         ]);
     }
 
